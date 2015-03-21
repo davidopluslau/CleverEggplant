@@ -3,4 +3,11 @@
 
     <string name="hello_world">The Eggplant is Clever!</string>
     <string name="action_settings">Settings</string>
+    <string-array name="textBullshit">
+        <item>Poobar</item>
+        <item>Towing</item>
+        <item>Audi</item>
+        <item>Tire</item>
+        <item>Mortality</item>
+    </string-array>
 </resources>
