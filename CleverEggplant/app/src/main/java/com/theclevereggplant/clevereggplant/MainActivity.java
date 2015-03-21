@@ -1,13 +1,16 @@
 package com.theclevereggplant.clevereggplant;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.view.ViewPager;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends FragmentActivity {
+    DemoPagerAdapter demoPagerAdapter;
+    ViewPager viewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +20,12 @@ public class MainActivity extends Activity {
         //This is how we can grab a textview and change its text
         TextView eggplant = (TextView) findViewById(R.id.lauBuiltThisShittyVariableName);
         eggplant.setText("Truebar!");
+
+        demoPagerAdapter = new DemoPagerAdapter(getSupportFragmentManager(), this);
+        viewPager = (ViewPager) findViewById(R.id.pager);
+        System.out.println("Coolbar!");
+        viewPager.setAdapter(demoPagerAdapter);
+        System.out.println("Bananaphone!");
     }
 
 
