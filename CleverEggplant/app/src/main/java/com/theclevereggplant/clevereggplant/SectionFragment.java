@@ -12,9 +12,10 @@ public class SectionFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container,
             @Nullable Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.activity_main, container, false);
+        View rootView = inflater.inflate(R.layout.page, container, false);
         Bundle args = getArguments();
-        ((TextView) rootView.findViewById(R.id.lauBuiltThisShittyVariableName)).setText(args.getString("foobar"));
+        TextView textView = (TextView) rootView.findViewById(R.id.sanity);
+        textView.setText(args.getString("foobar"));
         return rootView;
     }
 }

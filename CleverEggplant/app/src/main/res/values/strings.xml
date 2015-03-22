@@ -1,11 +1,37 @@
 <resources>
     <string name="app_name">Clever Eggplant</string>
 
-    <string name="hello_world">The Eggplant is Clever!</string>
+    <string name="menu_title">The Clever Eggplant</string>
+    <string name="sanity_title">TTTTTTTTTTTTTTTTTTTTT</string>
     <string name="action_settings">Settings</string>
     <string-array name="textBullshit">
-        <item>Poobar</item>
-        <item>Towing</item>
+        <item>
+            Upcoming session: 26 March, 2015 @ StartX\n
+            Emphasis: flaming cocktails!\n
+            I\'m planting the menu, please be patient!\n
+            Previous week\'s menu:\n\n
+            (PREVIOUS) March 12, 2015\n
+            Alien Brain Hemorrhage\n
+            Peach schnapps, Bailey\'s, blue curacao, grenadine\n\n
+            Pho-shop Cocktail\n
+            Gin, simple syrup, lime juice, cucumber, basil\n\n
+            Fantastic Lake\n
+            Sake, Cointreau, brandy, lemon, blue curacao, tonic water\n\n
+            Ginger Basil Grapefruit Spritzer\n
+            Grapefruit, simple syrup, ginger, basil, club soda\n\n
+            Mint Juleps\n
+            Bourbon, simple syrup, mint\n\n
+            Laughter in the Rain\n
+            Vodka, peach schnapps, lemon juice, simple syrup\n\n
+            Bee String\n
+            Tequila, lemon juice, honey, jalepeno
+        </item>
+        <item>The Clever Eggplant is an informal bar at StartX, which is Stanford\'s startup incubator. The bar is hosted by StartX-affiliate Weeby.co and staffed by a bartender, David, and Weeby\'s office manager, Rachel. By pulling a pair of tall tables and a few stools over next to a sink, the bar appears every two weeks to create a fun, relaxed, and playful atmosphere for its patrons. Regardless of if they want to relax with a sparkling fruity drink, or savor a stiff spirit-forward cocktail, or simply refresh themselves with a non-alcoholic libation before a long drive home, we can accommodate the diverse interests of our patrons.\n\n
+           In May 2014, David, a newly employed software developer, got pulled into one of Weeby\'s weekly game nights at StartX. There, he met Rachel, who pointed out the large quantities of hard liquor that they had on hand. David had been wanting to learn to mix drinks, and so they struck a mutually beneficial arrangement. Together, they started an informal bar every other game night, serving cocktails free of charge. Rachel procured the ingredients for the bar and printed out each night\'s menu. David selected each night\'s drinks and served them to generous and enthusiastic patrons. On the night of August 14, 2014, the unrefined but scrappy bar opened for the first time.\n\n
+           The first few sessions at the bar were challenging. Unseasoned, David would forget all sorts of equipment each week: his measurement jigger, or his mixing tins, or (most disastrously) his citrus juicer. His inexperience meant that even when fully equipped, he would often be hard pressed to serve the deluge of eager patrons who would swarm the bar. But session after session, the drinks came out a little faster, developed more sophistication, and the bar was able to create an enjoyable atmosphere.\n\n
+            <br></br>
+           Though it still has a long way to go, The Clever Eggplant has significantly matured since its opening night. It now offers everything from solid classic cocktails to idiosyncratic original drinks to fantastical layered shooters like the Alien Brain Hemorrhage. If you\'ve been a patron of the bar, then we\'d like to thank you for showing up and making the bar the success that it is. If you\'ve never come by, then please drop by the next time we\'re open, take a seat, check out our menu, order a cocktail, and stay a moment at our wonderful bar.
+        </item>
         <item>Audi</item>
         <item>Tire</item>
         <item>Mortality</item>

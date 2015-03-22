@@ -32,7 +32,7 @@ public class DemoPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
-        return getItem(position).getArguments().getString("foobar");
+        return "I am a bananaphone";
     }
 
     @Override
