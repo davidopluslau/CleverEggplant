@@ -33,7 +33,7 @@ a, p, div {
 
 .hideable {
     display: none;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 20px 0px 20px;
 }
 
 .button {
@@ -98,7 +98,7 @@ a, p, div {
 .subholder {
     display: block;
     margin: 0 auto;
-    max-width: 768px;
+    max-width: 788px;
     height: auto;
 }
 
