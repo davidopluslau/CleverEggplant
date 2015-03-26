@@ -22,10 +22,22 @@ public class DemoPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int i) {
-        Fragment fragment = new SectionFragment();
+        Fragment fragment;
         Bundle bundle = new Bundle();
-        String content = pageStrings.get(i);
-        bundle.putString("foobar", content);
+        switch (i) {
+            case 0:
+            case 1:
+                fragment = new TextVomitFragment();
+                String content = pageStrings.get(i);
+                bundle.putString("foobar", content);
+                break;
+            case 2:
+                fragment = new StaffPageFragment();
+                break;
+            default:
+                fragment = new TextVomitFragment();
+                bundle.putString("foobar", "This should not be visible: there was an error in accessing page " + i);
+        }
         fragment.setArguments(bundle);
         return fragment;
     }

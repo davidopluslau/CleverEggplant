@@ -8,6 +8,6 @@
                 android:text="@string/sanity_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/sanity"/>
+                android:id="@+id/text_vomit"/>
     </ScrollView>
 </RelativeLayout>

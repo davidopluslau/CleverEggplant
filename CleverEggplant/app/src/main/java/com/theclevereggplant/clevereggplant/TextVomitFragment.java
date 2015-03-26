@@ -8,13 +8,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-public class SectionFragment extends Fragment {
+public class TextVomitFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container,
             @Nullable Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.page, container, false);
+        View rootView = inflater.inflate(R.layout.text_vomit_page, container, false);
         Bundle args = getArguments();
-        TextView textView = (TextView) rootView.findViewById(R.id.sanity);
+        TextView textView = (TextView) rootView.findViewById(R.id.text_vomit);
         textView.setText(args.getString("foobar"));
         return rootView;
     }

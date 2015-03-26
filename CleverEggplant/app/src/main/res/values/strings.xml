@@ -36,4 +36,12 @@
         <item>Tire</item>
         <item>Mortality</item>
     </string-array>
+    <string name="david_blurb">David is, by day, a software engineer at Refresh, Inc., a startup that aggregates data from a variety of professional and social networks and recommends conversation topics. He drinks sparingly while bartending, as he ironically has embarrassingly unimpressive alcohol tolerance. Besides mixing drinks for the bar, David also chooses the drinks, worked on the modern menu layout, and built and manages the website. He also powerlifts recreationally, practices Judo at Stanford, and enjoys reading books in the office before work and at coffee shops during the weekend.
+    </string>
+    <string name="rachel_blurb">Rachel is the office manager for Weeby.co, a software startup that builds a game engine and games for their platform. Besides keeping her colleagues alive at the office, she puts together Weeby\'s game nights at StartX\'s facility, even when The Clever Eggplant is not in session. Every week she pulls together game nights with dozens of attendees and arranges enough food to feed all of them. Bar weeks present further challenges: she prints the night\'s menu and stocks the bar with citrus and sodas and herbs and liquors and frequent one-off ingredients. Rachel may not be the face of the bar, but she is its invaluable backbone, and without her there would be no game nights at all. Outside of work, Rachel enjoys running outdoors and dancing at clubs.
+    </string>
+    <string name="stephanie_blurb">Stephanie is the visual designer for Jelli, Inc., a startup that produces a cloud-based ad platform for radio. When David wanted to build new logos and redesign the menu, he turned to his high school friend for her professional expertise. Stephanie put in many hours to build numerous revisions of The Clever Eggplant\'s logo, art assets, typography, and layout. Everything that makes the menu and website beautiful is a piece of her work.
+    </string>
+    <string name="jason_blurb">Jason is a prognostics intern at NASA, measuring the performance of their aviation equipment. Hailing from Trinidad, he explored the Bay Area and ended up meeting David in a coffee shop. The two of them agreed to overcome their lack of Android experience and are building a mobile app for The Clever Eggplant. Jason is an avid photographer and astronomer. He combined these to build a star identification algorithm in his free time. David has also never seen a human consume so much vodka so easily in one sitting.
+    </string>
 </resources>
