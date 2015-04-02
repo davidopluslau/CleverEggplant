@@ -8,7 +8,7 @@ import android.view.MenuItem;
 
 
 public class MainActivity extends ActionBarActivity {
-    DemoPagerAdapter demoPagerAdapter;
+    CleverPagerAdapter cleverPagerAdapter;
     ViewPager viewPager;
 
     @Override
@@ -17,9 +17,9 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         getSupportActionBar().setTitle(R.string.menu_title);
 
-        demoPagerAdapter = new DemoPagerAdapter(getSupportFragmentManager(), this);
+        cleverPagerAdapter = new CleverPagerAdapter(getSupportFragmentManager(), this);
         viewPager = (ViewPager) findViewById(R.id.pager);
-        viewPager.setAdapter(demoPagerAdapter);
+        viewPager.setAdapter(cleverPagerAdapter);
     }
 
 

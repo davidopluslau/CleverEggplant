@@ -10,11 +10,11 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-public class DemoPagerAdapter extends FragmentPagerAdapter {
+public class CleverPagerAdapter extends FragmentPagerAdapter {
 
     List<String> pageStrings = new ArrayList<>();
 
-    public DemoPagerAdapter(FragmentManager fm, Context context) {
+    public CleverPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
         String[] pageData = context.getResources().getStringArray(R.array.textBullshit);
         pageStrings = new ArrayList<>(Arrays.asList(pageData));

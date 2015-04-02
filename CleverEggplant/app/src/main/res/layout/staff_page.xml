@@ -3,38 +3,50 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
     <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
-        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:layout_marginTop="@dimen/claustrophobia">
             <ImageView android:layout_width="@dimen/thumbnail_side"
                        android:layout_height="@dimen/thumbnail_side"
                        android:id="@+id/david_thumb"
+                       android:layout_gravity="center_horizontal"
                        android:src="@drawable/david"/>
             <TextView
                     android:text="@string/david_blurb"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/david_blurb"/>
+
             <ImageView android:layout_width="@dimen/thumbnail_side"
                        android:layout_height="@dimen/thumbnail_side"
                        android:id="@+id/rachel_thumb"
-                       android:src="@drawable/rachel"/>
+                       android:layout_gravity="center_horizontal"
+                       android:src="@drawable/rachel"
+                       android:layout_marginTop="@dimen/activity_horizontal_margin"/>
             <TextView
                     android:text="@string/rachel_blurb"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/rachel_blurb"/>
+
             <ImageView android:layout_width="@dimen/thumbnail_side"
                        android:layout_height="@dimen/thumbnail_side"
                        android:id="@+id/stephanie_thumb"
-                       android:src="@drawable/stephanie"/>
+                       android:layout_gravity="center_horizontal"
+                       android:src="@drawable/stephanie"
+                       android:layout_marginTop="@dimen/activity_horizontal_margin"/>
             <TextView
                     android:text="@string/stephanie_blurb"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/stephanie_blurb"/>
+
             <ImageView android:layout_width="@dimen/thumbnail_side"
                        android:layout_height="@dimen/thumbnail_side"
                        android:id="@+id/jason_thumb"
-                       android:src="@drawable/jason"/>
+                       android:layout_gravity="center_horizontal"
+                       android:src="@drawable/jason"
+                       android:layout_marginTop="@dimen/activity_horizontal_margin"/>
             <TextView
                     android:text="@string/jason_blurb"
                     android:layout_width="wrap_content"
