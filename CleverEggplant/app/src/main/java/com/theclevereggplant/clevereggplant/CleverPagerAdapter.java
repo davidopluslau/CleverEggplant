@@ -30,6 +30,7 @@ public class CleverPagerAdapter extends FragmentPagerAdapter {
         switch (i) {
             case 0:
             case 1:
+            case 3:
                 fragment = new TextVomitFragment();
                 String content = pageStrings.get(i);
                 bundle.putString("foobar", content);
