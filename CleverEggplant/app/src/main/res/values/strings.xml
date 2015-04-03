@@ -20,6 +20,14 @@
         <item>LLB</item>
         <item>Lemon-lime soda, lime juice, Angostura bitters (trace amount of alcohol)</item>
     </string-array>
+    <string-array name="faqs">
+        <item>Why are we The Clever Eggplant?</item>
+        <item>The bar was nameless for its first six months of operation. Our name reflects our origins as a supporting fixture of StartX\'s board game nights. One night, a few of us were playing Apples to Apples. David played the green card "Clever", prompting the other players to choose cards that they thought were evocative of cleverness. One of his friends had no good answers and played "Eggplant" in response to get rid of an otherwise useless card. The ludicrous combination of those cards amused David so much that he made it the name of the bar.</item>
+        <item>Does David work for StartX?</item>
+        <item>No, and neither does Rachel, for that matter. Rachel\'s company, Weeby, graduated from StartX\'s startup incubation program, which is how she is affiliated with them. Likewise, David has a friend whose company also graduated from StartX, which is how David was introduced to game nights. Neither David nor his company have any affiliation with StartX. He simply mixes there on their good graces.</item>
+        <item>How did David start bartending?</item>
+        <item>His mixing began when he received a mixology book for his birthday. He likes to say that reading the book and watching Youtube videos accounts for 10\u0025 of his skill and knowledge, while the other 90\u0025 comes from patrons at the bar bombarding him with drink requests until he could handle them all.</item>
+    </string-array>
 
     <string-array name="textBullshit">
         <item>
@@ -50,7 +58,6 @@
            Though it still has a long way to go, The Clever Eggplant has significantly matured since its opening night. It now offers everything from solid classic cocktails to idiosyncratic original drinks to fantastical layered shooters like the Alien Brain Hemorrhage. If you\'ve been a patron of the bar, then we\'d like to thank you for showing up and making the bar the success that it is. If you\'ve never come by, then please drop by the next time we\'re open, take a seat, check out our menu, order a cocktail, and stay a moment at our wonderful bar.
         </item>
         <item>Audi</item>
-        <item>Why are we The Clever Eggplant?\nThe bar was nameless for its first six months of operation. Our name reflects our origins as a supporting fixture of StartX\'s board game nights. One night, a few of us were playing Apples to Apples. David played the green card "Clever", prompting the other players to choose cards that they thought were evocative of cleverness. One of his friends had no good answers and played "Eggplant" in response to get rid of an otherwise useless card. The ludicrous combination of those cards amused David so much that he made it the name of the bar.\nDoes David work for StartX?\nNo, and neither does Rachel, for that matter. Rachel\'s company, Weeby, graduated from StartX\'s startup incubation program, which is how she is affiliated with them. Likewise, David has a friend whose company also graduated from StartX, which is how David was introduced to game nights. Neither David nor his company have any affiliation with StartX. He simply mixes there on their good graces.\nHow did David start bartending?\nHis mixing began when he received a mixology book for his birthday. He likes to say that reading the book and watching Youtube videos accounts for 10%% of his skill and knowledge, while the other 90%% comes from patrons at the bar bombarding him with drink requests until he could handle them all.</item>
         <item>Mortality</item>
     </string-array>
     <string name="david_blurb">David is, by day, a software engineer at LinkedIn. He drinks sparingly while bartending, as he ironically has embarrassingly unimpressive alcohol tolerance. Besides mixing drinks for the bar, David also chooses the drinks, worked on the modern menu layout, and built and manages the website. He also powerlifts recreationally, practices Judo at Stanford, and enjoys reading books in the office before work and at coffee shops during the weekend.

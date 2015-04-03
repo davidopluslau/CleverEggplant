@@ -10,21 +10,26 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.view.Gravity;
 
 public class CleverPagerAdapter extends FragmentPagerAdapter {
 
-    public static final String MENU = "menu";
+    public static final String STRING_PAIRS = "stringPairs";
+    public static final String GRAVITY = "gravity";
     private final List<String> pageStrings;
     private final String[] menu;
+    private final String[] faqs;
     Typeface museoFont;
 
     public CleverPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
         String[] pageData = context.getResources().getStringArray(R.array.textBullshit);
         String[] menu = context.getResources().getStringArray(R.array.menu_items);
+        String[] faqs = context.getResources().getStringArray(R.array.faqs);
         this.museoFont = Typeface.createFromAsset(context.getAssets(), "Museo-300.otf");
         pageStrings = new ArrayList<>(Arrays.asList(pageData));
         this.menu = menu;
+        this.faqs = faqs;
     }
 
     @Override
@@ -33,17 +38,22 @@ public class CleverPagerAdapter extends FragmentPagerAdapter {
         Bundle bundle = new Bundle();
         switch (i) {
             case 0:
-                fragment = new MenuPageFragment();
-                bundle.putStringArray(MENU, menu);
+                fragment = new TitleBlurbFragment();
+                bundle.putStringArray(STRING_PAIRS, menu);
+                bundle.putInt(GRAVITY, Gravity.CENTER);
+                break;
+            case 2:
+                fragment = new StaffPageFragment();
                 break;
             case 1:
-            case 3:
                 fragment = new TextVomitFragment();
                 String content = pageStrings.get(i);
                 bundle.putString("foobar", content);
                 break;
-            case 2:
-                fragment = new StaffPageFragment();
+            case 3:
+                fragment = new TitleBlurbFragment();
+                bundle.putStringArray(STRING_PAIRS, faqs);
+                bundle.putInt(GRAVITY, Gravity.LEFT);
                 break;
             default:
                 fragment = new TextVomitFragment();
@@ -60,6 +70,6 @@ public class CleverPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return pageStrings.size();
+        return 5;
     }
 }
