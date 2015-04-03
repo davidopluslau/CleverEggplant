@@ -13,14 +13,18 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class CleverPagerAdapter extends FragmentPagerAdapter {
 
-    List<String> pageStrings = new ArrayList<>();
+    public static final String MENU = "menu";
+    private final List<String> pageStrings;
+    private final String[] menu;
     Typeface museoFont;
 
     public CleverPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
         String[] pageData = context.getResources().getStringArray(R.array.textBullshit);
+        String[] menu = context.getResources().getStringArray(R.array.menu_items);
         this.museoFont = Typeface.createFromAsset(context.getAssets(), "Museo-300.otf");
         pageStrings = new ArrayList<>(Arrays.asList(pageData));
+        this.menu = menu;
     }
 
     @Override
@@ -29,6 +33,9 @@ public class CleverPagerAdapter extends FragmentPagerAdapter {
         Bundle bundle = new Bundle();
         switch (i) {
             case 0:
+                fragment = new MenuPageFragment();
+                bundle.putStringArray(MENU, menu);
+                break;
             case 1:
             case 3:
                 fragment = new TextVomitFragment();

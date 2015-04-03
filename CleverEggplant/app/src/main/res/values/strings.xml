@@ -4,6 +4,23 @@
     <string name="menu_title">The Clever Eggplant</string>
     <string name="sanity_title">TTTTTTTTTTTTTTTTTTTTT</string>
     <string name="action_settings">Settings</string>
+    <string-array name="menu_items">
+        <item>Singapore Sling, commemorating Lee Kuan Yew (1923-2015)</item>
+        <item>Gin, cherry brandy, cointreau, grenadine, pineapple juice, lime juice</item>
+        <item>Margarita Veneziana</item>
+        <item>Tequila, Amaretto, sweet &#038; sour, lime juice</item>
+        <item>Revolver</item>
+        <item>Bourbon, Kahlua, Angostura bitters</item>
+        <item>Sakejin</item>
+        <item>Sake, gin</item>
+        <item>Almond Martini</item>
+        <item>Vodka, Amaretto, dry vermouth</item>
+        <item>Between the Sheets</item>
+        <item>Rum, triple sec, brandy, lemon juice</item>
+        <item>LLB</item>
+        <item>Lemon-lime soda, lime juice, Angostura bitters (trace amount of alcohol)</item>
+    </string-array>
+
     <string-array name="textBullshit">
         <item>
             Upcoming session: 26 March, 2015 @ StartX\n
@@ -36,7 +53,7 @@
         <item>Why are we The Clever Eggplant?\nThe bar was nameless for its first six months of operation. Our name reflects our origins as a supporting fixture of StartX\'s board game nights. One night, a few of us were playing Apples to Apples. David played the green card "Clever", prompting the other players to choose cards that they thought were evocative of cleverness. One of his friends had no good answers and played "Eggplant" in response to get rid of an otherwise useless card. The ludicrous combination of those cards amused David so much that he made it the name of the bar.\nDoes David work for StartX?\nNo, and neither does Rachel, for that matter. Rachel\'s company, Weeby, graduated from StartX\'s startup incubation program, which is how she is affiliated with them. Likewise, David has a friend whose company also graduated from StartX, which is how David was introduced to game nights. Neither David nor his company have any affiliation with StartX. He simply mixes there on their good graces.\nHow did David start bartending?\nHis mixing began when he received a mixology book for his birthday. He likes to say that reading the book and watching Youtube videos accounts for 10%% of his skill and knowledge, while the other 90%% comes from patrons at the bar bombarding him with drink requests until he could handle them all.</item>
         <item>Mortality</item>
     </string-array>
-    <string name="david_blurb">David is, by day, a software engineer at Refresh, Inc., a startup that aggregates data from a variety of professional and social networks and recommends conversation topics. He drinks sparingly while bartending, as he ironically has embarrassingly unimpressive alcohol tolerance. Besides mixing drinks for the bar, David also chooses the drinks, worked on the modern menu layout, and built and manages the website. He also powerlifts recreationally, practices Judo at Stanford, and enjoys reading books in the office before work and at coffee shops during the weekend.
+    <string name="david_blurb">David is, by day, a software engineer at LinkedIn. He drinks sparingly while bartending, as he ironically has embarrassingly unimpressive alcohol tolerance. Besides mixing drinks for the bar, David also chooses the drinks, worked on the modern menu layout, and built and manages the website. He also powerlifts recreationally, practices Judo at Stanford, and enjoys reading books in the office before work and at coffee shops during the weekend.
     </string>
     <string name="rachel_blurb">Rachel is the office manager for Weeby.co, a software startup that builds a game engine and games for their platform. Besides keeping her colleagues alive at the office, she puts together Weeby\'s game nights at StartX\'s facility, even when The Clever Eggplant is not in session. Every week she pulls together game nights with dozens of attendees and arranges enough food to feed all of them. Bar weeks present further challenges: she prints the night\'s menu and stocks the bar with citrus and sodas and herbs and liquors and frequent one-off ingredients. Rachel may not be the face of the bar, but she is its invaluable backbone, and without her there would be no game nights at all. Outside of work, Rachel enjoys running outdoors and dancing at clubs.
     </string>
